@@ -19,7 +19,7 @@ def main():
     screen = pygame.display.set_mode((450, 450))    # prev 360, 270
     clock = pygame.time.Clock()
 
-    print('\nA* (BLUE) vs. Exhaustive Search (GREEN) vs. Topological Order (YELLOW) in Directed Graphs')
+    print('\nA* (BLUE) vs. Exhaustive Search (GREEN) vs. Topological Order (YELLOW) for Path Finding')
     print('---------------------------------------------------------------------------')
 
     levels = [
