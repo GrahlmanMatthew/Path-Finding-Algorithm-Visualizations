@@ -5,9 +5,10 @@
 - Exhaustive Search: tries to find any solution through the maze by exploring all tiles. From it's position at any time, it will prefer to explore new paths to it's left, then upwards, then downwards, and finally to it's right.
  
 ## Path Visualization
-Legend:
-- A*: BLUE
-- Topological Search: GREEN
-- Exhaustive Search: YELLOW
+Legend: 
+- A* (BLUE) 
+- Topological Search (GREEN) 
+- Exhaustive Search (YELLOW)
 
 <img src="./output/LEVEL1.gif" width="300" height="300"> <img src="./output/LEVEL2.gif" width="300" height="300"> <img src="./output/LEVEL3.gif" width="300" height="300"> <img src="./output/LEVEL4.gif" width="300" height="300"> <img src="./output/LEVEL5.gif" width="300" height="300">
+
