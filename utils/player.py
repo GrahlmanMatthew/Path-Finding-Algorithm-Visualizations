@@ -52,6 +52,7 @@ class Player(object):
         x_marker = 'X'
         children = path_tree.get(curr_xy)
         
+        
         if adj[0] == ' ' or adj[0] == 'E':
             player.move(level, walls, marker, -self.dist, 0)   
             children['left'] = (curr_xy[0] - 1, curr_xy[1])     

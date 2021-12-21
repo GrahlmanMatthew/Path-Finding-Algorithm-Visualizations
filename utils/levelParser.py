@@ -42,7 +42,14 @@ class LevelParser:
     def getFinish(self):
         return self.finish
     
-    def drawLevel(self, screen):
+    def drawLevel(self, screen, level_num):
+        colour = (0, 0, 0)
+        if level_num == 1: colour = COLOURS.PURPLE
+        elif level_num == 2: colour = COLOURS.ORANGE
+        elif level_num == 3: colour = COLOURS.WHITE
+        elif level_num == 4: colour = COLOURS.CYAN
+        else: colour: COLOURS.PINK
+        
         for wall in self.walls:
-            pygame.draw.rect(screen, COLOURS.PURPLE, wall.rect)
+            pygame.draw.rect(screen, colour, wall.rect)  
         pygame.draw.rect(screen, COLOURS.RED, self.finish)
