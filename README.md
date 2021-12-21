@@ -1,4 +1,4 @@
-# Path Finding Algorithms in Directed Graphs
+# Path Finding Algorithms
 ## A* vs. Topological Search vs. Exhaustive Search
 - A*: finds the shorest path through the maze, beginning at the starting coordinate and finishing at the ending coordinate. It evaluates each path through the maze against a heuristic to determine the most optimal path.
 - Topological Search: finds a path through the maze, beginning at the starting coordinate and finishing at the ending coordinate. To do this, it generates a directed-acyclic graph from the maze (level), then iterates through it until a path is found.
